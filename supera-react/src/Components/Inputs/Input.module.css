@@ -1,0 +1,28 @@
+.form_controler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
+
+.form_controler label {
+    font-size: 1.2rem;
+    width: 15rem;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.form_controler input {
+    height: 2.5rem;
+    width: 15rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
